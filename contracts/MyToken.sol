@@ -4,14 +4,14 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract TokenFactory{
     event TokenCreated(
-        address indexed rokenAddress,
+        address indexed tokenAddress,
         string name,
-        string sybol,
+        string symbol,
         uint256 initialSupply,
         uint8 decimals,
         uint256 price
     );
-    function CreteToken(
+    function creteToken(
          string memory name,
         string memory symbol,
         uint256 initialSupply,
