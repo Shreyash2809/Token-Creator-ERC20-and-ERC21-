@@ -1,22 +1,18 @@
 {
-  "name": "token-creator-erc20-and-erc21-",
+  "name": "token-creator-erc20-and-erc21",
   "version": "1.0.0",
-  "description": "",
+  "description": "A project to create ERC20 and ERC21 tokens.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["hardhat", "erc20", "erc21", "smart-contracts"],
+  "author": "Your Name",
   "license": "ISC",
-  "type": "module",
   "devDependencies": {
-    "@nomicfoundation/hardhat-ethers": "^3.0.8",
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
-    "@nomiclabs/hardhat-ethers": "^2.2.3",
-    "@nomiclabs/hardhat-waffle": "^2.0.6",
     "chai": "^4.5.0",
-    "ethereum-waffle": "^4.0.10",
     "ethers": "^6.13.5",
     "hardhat": "^2.22.18"
   },
